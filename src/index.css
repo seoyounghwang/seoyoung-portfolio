@@ -2,15 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 
 @layer base {
     body {
-        @apply font-[Roboto+Slab];
+        @apply font-[Roboto+Mono];
     }
 
     li {
         @apply px-4;
         @apply cursor-pointer
     }
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: 
+    linear-gradient(
+        to right,
+        rgba(40, 40, 40, 0.5),
+        hsla(0, 0%, 18%, 0.5)   
+    )!important;
 }
