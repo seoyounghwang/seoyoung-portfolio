@@ -41,7 +41,7 @@ const Skills = () => {
         {skills.map((skill) => (
           <div className="shadow-md shoadow-[#040c16] hover:scale-110 dutation-500">
             <img
-              className="w-20 mx-auto"
+              className="w-20 mx-auto h-20"
               src={skill.src}
               alt={skill.name + "_icon"}
             />
