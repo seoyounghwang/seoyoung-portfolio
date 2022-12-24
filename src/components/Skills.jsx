@@ -10,6 +10,9 @@ import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
 import Postcss from "../assets/postcss.png";
+import GraphQL from "../assets/graphql.png";
+import Jest from "../assets/jest.png";
+import TypeScript from "../assets/typescript.png";
 
 const Skills = () => {
   const [skills, SetSkills] = useState([
@@ -24,6 +27,9 @@ const Skills = () => {
     { src: Tailwind, name: "Tailwind" },
     { src: Mongo, name: "Mongo" },
     { src: Postcss, name: "Post CSS" },
+    { src: GraphQL, name: "GraphQL" },
+    { src: Jest, name: "Jest" },
+    { src: TypeScript, name: "TypeScript" },
   ]);
   return (
     <div name="skills" className="w-full bg-[#154024] text-gray-100">
